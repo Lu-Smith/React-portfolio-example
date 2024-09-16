@@ -2,7 +2,18 @@
 
 function Banner () {
     return ( 
-        <h2>I am banner</h2>
+        <div className="Banner">
+            <div className="boxTop">
+                <div className="boxLeft">
+                    <h1>Portfolio</h1>
+                </div>
+                <div className="boxRight"></div>
+            </div>
+            <div className="boxBottom">
+                <div className="boxLeft"></div>
+                <div className="boxRight"></div>
+            </div>
+        </div>
      );
 }
 
