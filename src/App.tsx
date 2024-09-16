@@ -5,12 +5,11 @@ import Projects from "./Components/Projects";
 function App() {
 
   return (
-    <>
-      <h1>Hello World</h1>
+    <div className="App">
       <Banner />
       <Projects />
       <Contact />
-    </>
+    </div>
   )
 }
 
