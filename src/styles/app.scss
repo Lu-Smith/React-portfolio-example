@@ -1,0 +1,17 @@
+@import './variables';
+@import './mixins';
+@import './base';
+
+//components
+@import './banner';
+
+
+.App {
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+.App img {
+    max-width: 100vw;
+    max-height: 100vh;
+}
