@@ -1,11 +1,12 @@
-import Banner from "./Components/Banner";
-import Contact from "./Components/Contact";
-import Projects from "./Components/Projects";
+import Banner from "./components/Banner";
+import Contact from "./components/Contact";
+import Projects from "./components/Projects";
+import './styles/app.scss';
 
 function App() {
 
   return (
-    <div className="App">
+    <div className="App"><nav></nav>
       <Banner />
       <Projects />
       <Contact />
