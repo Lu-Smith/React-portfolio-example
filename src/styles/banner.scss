@@ -13,6 +13,10 @@
         height: 100%;
 
         @media screen and (max-width: 1000px) {
+            grid-template-columns: repeat(3, 1fr); 
+        }
+
+        @media screen and (max-width: 900px) {
             grid-template-columns: repeat(2, 1fr); 
         }
     }
@@ -34,7 +38,6 @@
     .imgSmall {
         grid-column: span 1; 
         grid-row: span 1; 
-        background-color: green;
     }
     
     .imgLarge {
@@ -56,8 +59,22 @@
         font-size: 2rem;
     }
 
+    .message {
+        background-color: rgb(225, 182, 126);
+
+        @media screen and (max-width: 1000px) {
+            background-color: black;
+        }
+    }
+
     .non-mobile {
         @media screen and (max-width: 1000px) {
+            display: none;
+        }
+    }
+
+    .non-mobile-img {
+        @media screen and (max-width: 900px) {
             display: none;
         }
     }
@@ -65,7 +82,6 @@
     .description {
         grid-column: span 3;
         grid-row: span 1;
-        background-color: red;
         height: 100%;
     }
 
