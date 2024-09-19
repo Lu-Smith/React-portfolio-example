@@ -11,6 +11,10 @@
         grid-template-rows: 50vh 50vh;
         width: 100%;
         height: 100%;
+
+        @media screen and (max-width: 1000px) {
+            grid-template-columns: repeat(2, 1fr); 
+        }
     }
     
     .box {
@@ -36,6 +40,10 @@
     .imgLarge {
         grid-column: span 1; 
         grid-row: span 1; 
+
+        @media screen and (max-width: 1000px) {
+            display: none;
+        }
     }
     
     .number-box {
@@ -46,6 +54,12 @@
         align-items: center;
         justify-content: center;
         font-size: 2rem;
+    }
+
+    .non-mobile {
+        @media screen and (max-width: 1000px) {
+            display: none;
+        }
     }
     
     .description {

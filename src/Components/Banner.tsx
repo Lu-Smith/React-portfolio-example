@@ -9,8 +9,8 @@ function Banner () {
                 <div className="box imgSmall">
                     <img src={Violin3} alt="violin 3" />
                 </div>
-                <div className="box number-box">1</div>
-                <div className="box imgSmall">
+                <div className="box number-box non-mobile">1</div>
+                <div className="box imgSmall non-mobile">
                     <img src={Violin5} alt="violin 5" />
                 </div>
                 <div className="box number-box">2</div>
